@@ -1,5 +1,4 @@
 package com.logical;
-import java.util.*;
 
 public class CountCharacterOccurence {
 	public static void main(String[] args) {

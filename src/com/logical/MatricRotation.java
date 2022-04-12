@@ -76,8 +76,9 @@ public class MatricRotation {
 		
 		else {
 			System.out.println("Please Enter the Valid Input!");
+			
 		}
-
+		sc.close();
 	}
 
 }
