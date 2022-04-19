@@ -14,6 +14,7 @@ public class Sms_ShortCut_To_Full {
 	String in = sc.nextLine();
 	String ans = "";
 	String[] a = null;
+	sc.close();
 	for (int i = 0; i < in.length(); i++) {
 		
 		 a = in.split(" ");
