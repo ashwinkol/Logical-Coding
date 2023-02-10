@@ -17,7 +17,7 @@ public class BalBracet {
 				x.push(in);
 			}
 			
-			if(x.isEmpty() || a.length() == 1) {
+			if(x.isEmpty() || a.length() == 1 || stack.size() == s.length()) {
 				return false;
 			}
 			
@@ -51,7 +51,7 @@ public class BalBracet {
 			
 		}
 		
-		return true;
+		return (stack.isEmpty());
 	}
 	
 	public static void main(String[] args) {
